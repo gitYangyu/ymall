@@ -5,6 +5,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ymall-pms/pom.xml" />
+        <option value="$PROJECT_DIR$/gmal-ums/pom.xml" />
+        <option value="$PROJECT_DIR$/gmal-oms/pom.xml" />
+        <option value="$PROJECT_DIR$/gmal-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/gmal-wms/pom.xml" />
       </list>
     </option>
   </component>

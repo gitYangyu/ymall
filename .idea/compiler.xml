@@ -6,14 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="gmall-admin" />
+        <module name="gmal-ums" />
+        <module name="gmal-sms" />
         <module name="gmall-core" />
+        <module name="gmal-oms" />
+        <module name="gmall-admin" />
+        <module name="ymall-pms" />
+        <module name="gmal-wms" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gmal-oms" options="-parameters" />
+      <module name="gmal-sms" options="-parameters" />
+      <module name="gmal-ums" options="-parameters" />
+      <module name="gmal-wms" options="-parameters" />
       <module name="gmall-admin" options="-parameters" />
+      <module name="ymall-pms" options="-parameters" />
     </option>
   </component>
 </project>
